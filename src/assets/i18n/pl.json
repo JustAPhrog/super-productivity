@@ -330,38 +330,38 @@
     },
     "JIRA": {
       "BANNER": {
-        "BLOCK_ACCESS_MSG": "Jira: To prevent shut out from api, access has been blocked by Super Productivity. You probably should check your jira settings!",
+        "BLOCK_ACCESS_MSG": "Jira: Aby zapobiec blokadzie api, Super Productivity zablokował dostęp. Sprawdź swoje ustawienia konta Jira!",
         "BLOCK_ACCESS_UNBLOCK": "Odblokuj"
       },
       "CFG_CMP": {
-        "ALWAYS_ASK": "Always open dialog",
+        "ALWAYS_ASK": "Zawsze otwieraj okno dialogowe",
+        "DONE": "Status zakończonego zadania",
         "DO_NOT": "Don't transition",
-        "DONE": "Status for completing task",
-        "ENABLE": "Enable Jira integration",
+        "ENABLE": "Włącz integrację z plstformą Jira",
         "ENABLE_TRANSITIONS": "Enable Transition Handling",
-        "IN_PROGRESS": "Status for starting task",
-        "LOAD_SUGGESTIONS": "Load Suggestions",
-        "MAP_CUSTOM_FIELDS": "Map Custom Fields",
+        "IN_PROGRESS": "Status rozpoczętego zadania",
+        "LOAD_SUGGESTIONS": "Załaduj sugestie",
+        "MAP_CUSTOM_FIELDS": "Dopasuj niestandardowe pola",
         "MAP_CUSTOM_FIELDS_INFO": "Unfortunately some of Jira's data is saved under custom fields which are different for every installation. If you want to include this data you need to select the proper custom field for it.",
-        "OPEN": "Status for pausing task",
+        "OPEN": "Status zatrzymanego zadania",
         "SELECT_ISSUE_FOR_TRANSITIONS": "Select issue to load available transitions",
         "STORY_POINTS": "Story Points",
         "TRANSITION": "Obsługa przejścia"
       },
       "DIALOG_CONFIRM_ASSIGNMENT": {
-        "MSG": "<strong>{{summary}}</strong> is currently assigned to <strong>{{assignee}}</strong>. Do you want to assign it to yourself?",
+        "MSG": "<strong>{{summary}}</strong> jest przypisane do <strong>{{assignee}}</strong>. Czy chcesz przypisać zadanie do siebie?",
         "OK": "Zrób to!"
       },
       "DIALOG_INITIAL": {
         "TITLE": "Ustawenia Jiry dla projektu"
       },
       "DIALOG_TRANSITION": {
-        "CHOOSE_STATUS": "Choose status to assign",
-        "CURRENT_ASSIGNEE": "Current Assignee:",
-        "CURRENT_STATUS": "Current Status:",
+        "CHOOSE_STATUS": "Wybierz status do przypisania",
+        "CURRENT_ASSIGNEE": "Aktualnie przypisany:",
+        "CURRENT_STATUS": "Aktualny status:",
         "TASK_NAME": "Nazwa zadania:",
-        "TITLE": "Jira: Update Status",
-        "UPDATE_STATUS": "Update Status"
+        "TITLE": "Jira: Status aktualizacji",
+        "UPDATE_STATUS": "Status aktualizacji"
       },
       "DIALOG_WORKLOG": {
         "CHECKBOXES": {
@@ -370,19 +370,19 @@
           "TIME_SPENT_TODAY": "Zawsze używaj tylko czasu spędzonego dzisiaj jako domyślnego",
           "TIME_SPENT_YESTERDAY": "Zawsze używaj tylko czasu spędzonego wczoraj jako domyślnego"
         },
-        "CURRENTLY_LOGGED": "Currently logged time: ",
-        "INVALID_DATE": "The entered value is not a date!",
-        "SAVE_WORKLOG": "Save Worklog",
-        "STARTED": "Started",
-        "SUBMIT_WORKLOG_FOR": "Submit a worklog to Jira for",
-        "TIME_SPENT": "Time Spent",
+        "CURRENTLY_LOGGED": "Zaraportowany czas: ",
+        "INVALID_DATE": "Wprowadzono błędną datę!",
+        "SAVE_WORKLOG": "Zapisz dziennik pracy (worklog)",
+        "STARTED": "Rozpoczęto",
+        "SUBMIT_WORKLOG_FOR": "Wyślij dziennik pracy (worklog) na platformę Jira do Jiry dla",
+        "TIME_SPENT": "Spędzono",
         "TIME_SPENT_TOOLTIP": "Dodaj różne czasy",
-        "TITLE": "Jira: Submit Worklog"
+        "TITLE": "Jira: Wyślij dziennik pracy (worklog)"
       },
       "FORM_ADV": {
-        "AUTO_ADD_BACKLOG_JQL_QUERY": "JQL used for adding tasks automatically to backlog",
-        "IS_ADD_WORKLOG_ON_SUB_TASK_DONE": "Open dialog to submit worklog to jira when sub task is done",
-        "IS_CHECK_TO_RE_ASSIGN_TICKET_ON_TASK_START": "Check if the currently worked on issue is assigned to current user",
+        "AUTO_ADD_BACKLOG_JQL_QUERY": "Zapytanie JQL używane do automatycznego dodawania zadań do backloga",
+        "IS_ADD_WORKLOG_ON_SUB_TASK_DONE": "Otwórz okno tekstowe, aby dodać dziennik zadań (worklog) kiedy zadanie zostanie zakończone",
+        "IS_CHECK_TO_RE_ASSIGN_TICKET_ON_TASK_START": "Sprawdź czy aktualnie wybrane zadanie jest przypisane do danego użytkownika",
         "IS_WORKLOG_ENABLED": "Open dialog to submit worklog to jira when task is done",
         "SEARCH_JQL_QUERY": "JQL Query for limiting searching tasks",
         "WORKLOG_DEFAULT_ALL_TIME": "Wypełnij cały czas spędzony na wykonywaniu zadania",
@@ -392,20 +392,20 @@
         "WORKLOG_DEFAULT_YESTERDAY": "Wypełnij tylko czas spędzony wczoraj"
       },
       "FORM_CRED": {
-        "ALLOW_SELF_SIGNED": "Allow self signed certificate",
+        "ALLOW_SELF_SIGNED": "Pozwól na certyfikat z podpisem własnym",
         "HOST": "Host (e.g.: http://my-host.de:1234)",
-        "PASSWORD": "Token / Password",
+        "PASSWORD": "Token / Hasło",
         "USE_PAT": "Zamiast tego użyj osobistego tokena dostępu (LEGACY)",
-        "USER_NAME": "Email / Username",
+        "USER_NAME": "Email / Nazwa użytkownika",
         "WONKY_COOKIE_MODE": "Wonky Cookie Fallback Authentication (desktop app only)"
       },
       "FORM_SECTION": {
-        "ADV_CFG": "Advanced Config",
+        "ADV_CFG": "Zaawansowane",
         "HELP_ARR": {
-          "H1": "Basic configuration",
-          "H2": "Worklog settings",
-          "H3": "Default transitions",
-          "P1_1": "Please provide a login name (can be found on your profile page) and an <a target=\"_blank\" href=\"https://confluence.atlassian.com/cloud/api-tokens-938839638.html\" target=\"_blank\">API token</a> or password if you can't generate one for some reason. Please not that newer versions of jira sometimes only work with the token. ",
+          "H1": "Podstawowa konfiguracja",
+          "H2": "Ustawienia dziennika zadań",
+          "H3": "Domyślne przekształcenia",
+          "P1_1": "Podaj login (mozna go znależźć na stronie profilu) oraz <a target=\"_blank\" href=\"https://confluence.atlassian.com/cloud/api-tokens-938839638.html\" target=\"_blank\">token API</a> albo hasło jeżeli nie da się wygenerować. Czasami nowsze wersje jiry działają tylko z tokenem. ",
           "P1_2": "You also need to specify a JQL query which is used for the suggestions to add tasks from Jira. If you need help check out this link <a target=\"_blank\" href=\"https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html\" target=\"_blank\">https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html</a>.",
           "P1_3": "You can also configure, if you want to automatically (e.g. every time you visit the planning view), to add all new tasks specified by a custom JQL query to the backlog.",
           "P1_4": "Another option is \"Check if current ticket is assigned to current user\". If enabled and you're starting, a check will be made if you're currently assigned to that ticket on Jira, if not an Dialog appears in which you can chose to assign the ticket to yourself.",
@@ -460,7 +460,7 @@
     },
     "METRIC": {
       "BANNER": {
-        "CHECK": "I did it!"
+        "CHECK": "Udało mi się!"
       },
       "CMP": {
         "AVG_BREAKS_PER_DAY": "Avg. breaks per day",
@@ -469,7 +469,7 @@
         "AVG_TIME_SPENT_PER_DAY": "Avg. time spent per day",
         "AVG_TIME_SPENT_PER_TASK": "Avg. time spent per task",
         "COUNTING_SUBTASKS": "(counting subtasks)",
-        "DAYS_WORKED": "Days worked",
+        "DAYS_WORKED": "Dni przepracowane",
         "GLOBAL_METRICS": "Global Metrics",
         "IMPROVEMENT_SELECTION_COUNT": "Number of times an improvement factor was selected",
         "MOOD_PRODUCTIVITY_OVER_TIME": "Mood and productivity over time",
@@ -505,7 +505,7 @@
     },
     "NOTE": {
       "D_ADD": {
-        "NOTE_LABEL": "Enter some text to save as note..."
+        "NOTE_LABEL": "Dodaj tekst aby zapisać notatkę..."
       },
       "D_FULLSCREEN": {
         "VIEW_PARSED": "Wyświetlanie jako przeanalizowany (nieedytowalny) markdown",
@@ -513,12 +513,12 @@
         "VIEW_TEXT_ONLY": "Wyświetlanie jako nieprzeanalizowany tekst"
       },
       "NOTE_CMP": {
-        "DISABLE_PARSE": "Disable markdown parsing",
-        "ENABLE_PARSE": "Enable markdown parse"
+        "DISABLE_PARSE": "Wyłącz parsowanie markdowna",
+        "ENABLE_PARSE": "Włącz parsowanie markdowna"
       },
       "NOTES_CMP": {
-        "ADD_BTN": "Add new Note",
-        "DROP_TO_ADD": "Drop here to add new note",
+        "ADD_BTN": "Dodaj nową Notatkę",
+        "DROP_TO_ADD": "Upuść tutaj aby dodać nową notatkę",
         "NO_NOTES": "Obecnie nie ma żadnych notatek"
       },
       "S": {
@@ -708,21 +708,21 @@
       },
       "FORM_THEME": {
         "D_IS_DARK_THEME": "Won`t be used if system supports global dark mode.",
-        "HELP": "Theme settings for your project.",
-        "L_BACKGROUND_IMAGE_DARK": "Background Image Url (Dark Theme)",
-        "L_BACKGROUND_IMAGE_LIGHT": "Background Image Url (Light Theme)",
-        "L_COLOR_ACCENT": "Accent Color",
-        "L_COLOR_PRIMARY": "Primary Color",
-        "L_COLOR_WARN": "Warn/Error Color",
+        "HELP": "Ustawienia motywu dla twojego projektu.",
+        "L_BACKGROUND_IMAGE_DARK": "Url Zdjęcia Tła (Ciemnego Motywu)",
+        "L_BACKGROUND_IMAGE_LIGHT": "Url Zdjęcia Tła (Jasnego Motywu)",
+        "L_COLOR_ACCENT": "Kolor Akcentu",
+        "L_COLOR_PRIMARY": "Kolor Główny",
+        "L_COLOR_WARN": "Kolor Ostrzeżenia/Błędu",
         "L_HUE_ACCENT": "Threshold for dark text on accent color background",
         "L_HUE_PRIMARY": "Threshold for dark text on primary color background",
         "L_HUE_WARN": "Threshold for dark text on warn color background",
-        "L_IS_AUTO_CONTRAST": "Auto set text colors for best readability",
+        "L_IS_AUTO_CONTRAST": "Automatycznie ustaw kolor tekstu dla najlepszej czytelności",
         "L_IS_DISABLE_BACKGROUND_GRADIENT": "Disable colored background gradient",
         "L_IS_REDUCED_THEME": "Use reduced UI (no boxes around tasks)",
-        "L_THEME_COLOR": "Theme Color",
-        "L_TITLE": "Title",
-        "TITLE": "Theme"
+        "L_THEME_COLOR": "Kolor Motywu",
+        "L_TITLE": "Tytuł",
+        "TITLE": "Motyw"
       },
       "S": {
         "ARCHIVED": "Archived Project",
@@ -928,92 +928,92 @@
     },
     "TAG": {
       "D_CREATE": {
-        "CREATE": "Create Tag",
-        "EDIT": "Edit Tag"
+        "CREATE": "Stwórz Tag",
+        "EDIT": "Edytuj Tag"
       },
       "D_DELETE": {
-        "CONFIRM_MSG": "Do you really want to delete the tag \"{{tagName}}\"? It will be removed from all tasks. This cannot be undone."
+        "CONFIRM_MSG": "Chcesz usunąć Tag \"{{tagName}}\"? Zostanie usunięty zer wszystkich zadań. Tego nie można cofnąć."
       },
       "D_EDIT": {
-        "ADD": "Add tags for \"{{title}}\"",
-        "EDIT": "Edit tags for \"{{title}}\"",
-        "LABEL": "Tags"
+        "ADD": "Dodaj tagi do \"{{title}}\"",
+        "EDIT": "Edytuj tagi do \"{{title}}\"",
+        "LABEL": "Tagi"
       },
       "FORM_BASIC": {
-        "L_COLOR": "Color (if undefined primary theme color is used)",
-        "L_ICON": "Icon",
-        "L_TITLE": "Tag Name",
-        "TITLE": "Basic Settings"
+        "L_COLOR": "Kolor (w przypadku braku użyty będzie domyślny)",
+        "L_ICON": "Ikona",
+        "L_TITLE": "Nazwa Taga",
+        "TITLE": "Podstawowe ustawienia"
       },
       "S": {
-        "UPDATED": "Tag Settings were updated"
+        "UPDATED": "Ustawienia Tagów zaktualizowane"
       }
     },
     "TASK": {
       "ADD_TASK_BAR": {
-        "ADD_EXISTING_TASK": "Add existing task \"{{taskTitle}}\"",
-        "ADD_ISSUE_TASK": "Add issue #{{issueNr}} from {{issueType}}",
+        "ADD_EXISTING_TASK": "Dodaj instniejące Zadanie \"{{taskTitle}}\"",
+        "ADD_ISSUE_TASK": "Dodaj zadanie #{{issueNr}} z {{issueType}}",
         "ADD_TASK_TO_BOTTOM_OF_BACKLOG": "Dodaj zadanie do dolnej części zaległości",
         "ADD_TASK_TO_BOTTOM_OF_TODAY": "Dodaj zadanie do dolnej części listy",
         "ADD_TASK_TO_TOP_OF_BACKLOG": "Dodanie zadania na początku listy zaległości",
         "ADD_TASK_TO_TOP_OF_TODAY": "Dodanie zadania na początek listy",
         "CREATE_TASK": "Create new task",
-        "EXAMPLE": "Example: \"Some task title +projectName #some-tag #some-other-tag 10m/3h\"",
-        "START": "Press enter one more time to start",
+        "EXAMPLE": "Przykład: \"Jakiś tytuł +nazwaProjektu #mój-tag #a-to-inny-tag 10m/3h\"",
+        "START": "Naciśnij enter jeszcze raz aby zacząć zadanie",
         "TOGGLE_ADD_TO_BACKLOG_TODAY": "Przełączanie dodawania zadania do zaległości / dzisiejszej listy",
         "TOGGLE_ADD_TOP_OR_BOTTOM": "Przełączanie dodawania zadania na górę i dół listy"
       },
       "ADDITIONAL_INFO": {
-        "ADD_ATTACHMENT": "Add attachment",
-        "ADD_SUB_TASK": "Add Sub Task",
-        "ATTACHMENTS": "Attachments ({{nr}})",
-        "FROM_PARENT": "(from Parent)",
-        "LOCAL_ATTACHMENTS": "Local Attachments",
-        "NOTES": "Description",
-        "PARENT": "Parent",
-        "REMINDER": "Reminder",
-        "REPEAT": "Repeat",
-        "SCHEDULE_TASK": "Schedule Task",
+        "ADD_ATTACHMENT": "Dodaj załącznik",
+        "ADD_SUB_TASK": "Dodaj podzadanie",
+        "ATTACHMENTS": "Załącznik ({{nr}})",
+        "FROM_PARENT": "(z głównego)",
+        "LOCAL_ATTACHMENTS": "Lokalne Załączniki",
+        "NOTES": "Opis",
+        "PARENT": "Główny",
+        "REMINDER": "Przypomnienie",
+        "REPEAT": "Powtórz",
+        "SCHEDULE_TASK": "Zaplanuj Zadanie",
         "SCHEDULED_AT": "Zaplanowane na",
-        "SUB_TASKS": "Sub Tasks ({{nr}})",
-        "TIME": "Time",
+        "SUB_TASKS": "Podzadanie ({{nr}})",
+        "TIME": "Czas",
         "TITLE_PLACEHOLDER": "Wprowadź tytuł"
       },
       "B": {
-        "ADD_HALF_HOUR": "Add 1/2 hour",
-        "ESTIMATE_EXCEEDED": "Time estimate exceeded for  \"{{title}}\""
+        "ADD_HALF_HOUR": "Dodaj 1/2 godziny",
+        "ESTIMATE_EXCEEDED": "Zaplanowany czas \"{{title}}\" minął"
       },
       "CMP": {
-        "ADD_SUB_TASK": "Add sub task",
-        "ADD_TO_MY_DAY": "Add to My Day",
-        "ADD_TO_PROJECT": "Add to a Project",
-        "CONVERT_TO_PARENT_TASK": "Convert to parent Task",
-        "DELETE": "Delete Task",
+        "ADD_SUB_TASK": "Dodaj podzadanie",
+        "ADD_TO_MY_DAY": "Dodaj do Mojego Dnia",
+        "ADD_TO_PROJECT": "Dodaj do Projektu",
+        "CONVERT_TO_PARENT_TASK": "Zamień na główne Zadanie",
+        "DELETE": "Usuń Zadanie",
         "DELETE_REPEAT_INSTANCE": "Usuwanie powtarzających się instancji zadań",
-        "DROP_ATTACHMENT": "Drop here to attach to \"{{title}}\"",
-        "EDIT_SCHEDULED": "Edit reminder",
-        "EDIT_TAGS": "Edit tags",
+        "DROP_ATTACHMENT": "Upuść tutaj aby dodać do \"{{title}}\"",
+        "EDIT_SCHEDULED": "Edytuj przypomnienia",
+        "EDIT_TAGS": "Edytuj tagi",
         "EDIT_TASK_TITLE": "Edytuj tytuł",
         "FOCUS_SESSION": "Rozpocznij sesję skupienia",
-        "MARK_DONE": "Mark as done",
-        "MARK_UNDONE": "Mark as undone",
-        "MOVE_TO_BACKLOG": "Move to backlog",
-        "MOVE_TO_OTHER_PROJECT": "Move to other Project",
-        "MOVE_TO_TODAY": "Move to today's list",
-        "OPEN_ATTACH": "Attach file or link",
-        "OPEN_ISSUE": "Open in browser",
-        "OPEN_TIME": "Time Tracking",
-        "REMOVE_FROM_MY_DAY": "Remove from My Day",
-        "REPEAT_EDIT": "Edit repeat task config",
-        "SCHEDULE": "Schedule task",
-        "SHOW_UPDATES": "Show updates",
-        "TOGGLE_ATTACHMENTS": "Show/Hide attachments",
-        "TOGGLE_DETAIL_PANEL": "Show/Hide additional info",
-        "TOGGLE_DONE": "Mark as done/undone",
-        "TOGGLE_SUB_TASK_VISIBILITY": "Toggle sub task visibility",
-        "TRACK_TIME": "Start tracking time",
-        "TRACK_TIME_STOP": "Pause tracking time",
-        "UPDATE_ISSUE_DATA": "Update issue data"
+        "MARK_DONE": "Zrobione",
+        "MARK_UNDONE": "Niezrobione",
+        "MOVE_TO_BACKLOG": "Przenieś do backlogu",
+        "MOVE_TO_OTHER_PROJECT": "Przenieś do innego projektu",
+        "MOVE_TO_TODAY": "Przenieś do dziennej listy",
+        "OPEN_ATTACH": "Dodaj plik lub link",
+        "OPEN_ISSUE": "Otwórz w przeglądarce",
+        "OPEN_TIME": "Zliczanie czasu",
+        "REMOVE_FROM_MY_DAY": "Usuń z Mojego Dnia",
+        "REPEAT_EDIT": "Edytuj ustawienia potwarzania",
+        "SCHEDULE": "Zaplanuj Zadanie",
+        "SHOW_UPDATES": "Pokaż aktualizacje",
+        "TOGGLE_ATTACHMENTS": "Pokaż/Ukryj załączniki",
+        "TOGGLE_DETAIL_PANEL": "Pokaż/Ukryj dodatkowe informacje",
+        "TOGGLE_DONE": "Zaznacz jako zrobione/niezrobione",
+        "TOGGLE_SUB_TASK_VISIBILITY": "Włącz pokazywanie podzadań",
+        "TRACK_TIME": "Włącz zliczanie czasu",
+        "TRACK_TIME_STOP": "Zatrzymaj zliczanie czasu",
+        "UPDATE_ISSUE_DATA": "Zaktualizuj dane zadania"
       },
       "D_CONFIRM_SHORT_SYNTAX_NEW_TAG": {
         "MSG": "Czy chcesz utworzyć nowy tag {{tagsTxt}}?",
@@ -1025,9 +1025,9 @@
       },
       "D_REMINDER_VIEW": {
         "ADD_ALL_TO_TODAY": "Dodaj wszystkie do dzisiaj",
-        "ADD_TO_TODAY": "Add to today",
-        "DISMISS": "Dismiss Reminder",
-        "DISMISS_ALL": "Dismiss all",
+        "ADD_TO_TODAY": "Dodaj do dzisiaj",
+        "DISMISS": "Odrzuć Przypomnienie",
+        "DISMISS_ALL": "Odrzuć wszystko",
         "DONE": "Gotowe",
         "DUE_TASK": "Due task",
         "DUE_TASKS": "Due tasks",
@@ -1151,10 +1151,10 @@
         "C_MONTH": "Miesiąc",
         "C_WEEK": "Tydzień",
         "C_YEAR": "Rok",
-        "DEFAULT_ESTIMATE": "Default Estimate",
-        "FRIDAY": "Friday",
+        "DEFAULT_ESTIMATE": "Domyślna Estymacja",
+        "FRIDAY": "Piątek",
         "IS_ADD_TO_BOTTOM": "Move task to bottom of list",
-        "MONDAY": "Monday",
+        "MONDAY": "Poniedziałek",
         "NOTES": "Domyślne noty",
         "ORDER": "Zamówienie",
         "ORDER_DESCRIPTION": "Kolejność tworzenia zadań powtarzalnych. Wpływa tylko na zadania powtarzalne utworzone w tym samym czasie. Niższa wartość oznacza, że zadanie zostanie utworzone wyżej na liście, a wyższa liczba, że zostanie utworzone niżej. Wartość większa niż 0 oznacza, że elementy będą tworzone na dole normalnych zadań.",
@@ -1169,15 +1169,15 @@
         "REMIND_AT_PLACEHOLDER": "Wybierz, kiedy przypomnieć",
         "REPEAT_CYCLE": "Powtarzanie cyklu",
         "REPEAT_EVERY": "Powtarzać co",
-        "SATURDAY": "Saturday",
+        "SATURDAY": "Sobota",
         "START_DATE": "Data rozpoczęcia",
         "START_TIME": "Zaplanowany czas rozpoczęcia",
         "START_TIME_DESCRIPTION": "Np. 15:00. Pozostaw puste dla zadania całodniowego",
-        "SUNDAY": "Sunday",
-        "THURSDAY": "Thursday",
+        "SUNDAY": "Niedziela",
+        "THURSDAY": "Czwartek",
         "TITLE": "Title for task",
-        "TUESDAY": "Tuesday",
-        "WEDNESDAY": "Wednesday"
+        "TUESDAY": "Wtorek",
+        "WEDNESDAY": "Środa"
       }
     },
     "TIME_TRACKING": {
@@ -1278,37 +1278,37 @@
   },
   "G": {
     "ADD": "Dodaj",
-    "CANCEL": "Cancel",
-    "CLOSE": "Close",
-    "DELETE": "Delete",
-    "DISMISS": "Dismiss",
-    "DO_IT": "Do it!",
+    "CANCEL": "Anuluj",
+    "CLOSE": "Zamknij",
+    "DELETE": "Usuń",
+    "DISMISS": "Odrzuć",
+    "DO_IT": "Zrób to!",
     "DURATION_DESCRIPTION": "np. \"5h 23m\", co daje wynik 5 godzin w 23 minuty.",
-    "EDIT": "Edit",
+    "EDIT": "Edytuj",
     "ENABLED": "Włączone",
-    "EXAMPLE_VAL": "click to edit",
-    "EXTENSION_INFO": "Please <a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/super-productivity/ljkbjodfmekklcoibdnhahlaalhihmlb\"> download the chrome extension</a> in order to allow communication with the Jira Api and Idle Time Handling. Note that this doesn't work for mobile.",
+    "EXAMPLE_VAL": "klikinj aby edytować",
+    "EXTENSION_INFO": "<a target=\"_blank\" href=\"https://chrome.google.com/webstore/detail/super-productivity/ljkbjodfmekklcoibdnhahlaalhihmlb\">Pobierz wtyczkę do chroma</a> aby pozwolić na integrację z Jira API oraz obsługę trybu Bezczynności. Nie działa na urządzeniach mobilnych.",
     "HIDE": "Ukryj",
     "ICON_INP_DESCRIPTION": "Obsługiwane są również wszystkie emotikony utf-8!",
-    "LOGIN": "Login",
-    "LOGOUT": "Logout",
-    "MINUTES": "{{m}} minutes",
-    "NEXT": "Next",
-    "NO_CON": "You are currently offline. Please reconnect to the internet.",
-    "NONE": "None",
+    "LOGIN": "Zaloguj",
+    "LOGOUT": "Wyloguj",
+    "MINUTES": "{{m}} minut",
+    "NEXT": "Następny",
+    "NO_CON": "Jesteś offline. Podłącz się do internetu.",
+    "NONE": "Żaden",
     "OK": "Ok",
-    "PREVIOUS": "Previous",
-    "REMOVE": "Remove",
+    "PREVIOUS": "Poprzedni",
+    "REMOVE": "Usuń",
     "RESET": "Reset",
-    "SAVE": "Save",
+    "SAVE": "Zapisz",
     "SUBMIT": "Prześlij",
-    "TITLE": "Title",
+    "TITLE": "Tytuł",
     "TODAY_TAG_TITLE": "Dzisiaj",
     "TRACKING_INTERVAL_DESCRIPTION": "Śledzenie czasu przy użyciu tego interwału w milisekundach. Możesz chcieć to zmienić, aby zmniejszyć liczbę zapisów na dysku. Zobacz błąd #2355.",
-    "UNDO": "Undo",
-    "UPDATE": "Update",
-    "WITHOUT_PROJECT": "Without Project",
-    "YESTERDAY": "Yesterday"
+    "UNDO": "Cofnij",
+    "UPDATE": "Zaktualizuj",
+    "WITHOUT_PROJECT": "Bez Projektu",
+    "YESTERDAY": "Wczoraj"
   },
   "GCF": {
     "AUTO_BACKUPS": {
